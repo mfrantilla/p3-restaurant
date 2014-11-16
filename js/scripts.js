@@ -6,9 +6,9 @@ $(document).ready( function() {
         controls: 'corner',
         fade: false,
         keyboard: true,
-        overflow: true,
+        overflow: false,
         touch: true,
-        transition: 'cube'
+        transition: 'linear'
     }).start();
 
 });

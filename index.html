@@ -20,27 +20,21 @@
 <body>
 
 
-
   
   
-<div class="ui blue inverted primary menu">
+<div class="ui red inverted primary menu">
     
     
-  <a class="item">
+  <a class="item" href="#main">
     <i class="home icon"></i> Home
   </a>
-  <a class="item">
+  <a class="item" href="#slidr">
     <i class="table icon"></i> Menu
   </a>
     
-      <a class="item">
+      <a class="item" href="#conact">
     <i class="mail icon"></i> Contact
-  </a>
-    
-          <a class="item">
-    <i class="map marker icon"></i> Location
-  </a>
-    
+  </a>   
     
   </div>
 </div>
@@ -49,14 +43,44 @@
 
 <div class="container">
  
+  <div id="main">
+  This is where You Are.
+  </div>
+
+
+
     <div id="slidr-home-demo">
         <div id="slidr-home" class="demo-slides">
             <div style="background-color: #F0AE1A;" data-slidr="one">
-                <div class="ui grid">
-                  <div class="column">
-                  <img src="http://www.placehold.it/200"/>
-                </div>
-                </div>
+                
+                <div class="ui four column stackable grid">
+
+                      <div class="column">
+                        <div class="segment">
+                        <img src="http://www.placehold.it/200" >
+                        </div>
+                      </div>
+
+                      <div class="column">
+                        <div class="segment">
+                          <img src="http://www.placehold.it/200" >
+                        </div>
+                      </div>
+
+                      <div class="column">
+                        <div class="segment">
+                          <img src="http://www.placehold.it/200" >
+                        </div>
+                      </div>
+
+                      <div class="column">
+                        <div class="segment">
+                          <img src="http://www.placehold.it/200" >
+                        </div>
+                      </div>
+                </div> <!-- end Grid -->
+
+
             </div>
             <div style="background-color: #12B2F0;" data-slidr="two">two</div>
             <div style="background-color: #FF0D01;" data-slidr="three">three</div>
@@ -69,7 +93,7 @@
 </div>
 
 
-<div class="ui grid">
+<div class="ui grid" id="contact">
 </div> <!--end of grid-->    
 
 </div> <!-- end Container-->
